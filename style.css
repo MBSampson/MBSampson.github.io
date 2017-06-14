@@ -177,6 +177,27 @@ hr{
 	color: white;
 }
 
+.fa:before {
+    content: "\f09b";
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+#email_icon{
+	color: white;
+	height: 10px;
+}
+
+#end_section_contact_text{
+	font-size: 0.7em;
+}
 #end_section{
 	margin-bottom: 2%;
 	padding: 1%;
