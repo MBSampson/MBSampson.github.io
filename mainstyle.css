@@ -46,6 +46,9 @@ body{
 	background-position: center;
 	background-size: cover;
 	
+	box-shadow: 5px 5px 2px 1px black,
+			    5px 5px 2px 1px gray;
+	
 	text-align: center;
 }
 
@@ -110,14 +113,16 @@ hr{
 	
 	border-radius: 20px;
 	border: 3px solid white;
-	box-shadow: 11px 11px 5px 1px black,
-			    11px 11px 5px 1px gray;
+	box-shadow: 5px 5px 2px 1px black,
+			    5px 5px 2px 1px gray;
 }
 
 .grid_card h3{
 	padding-bottom: 1.5%;
 	
 	text-align: center;
+	text-transform: uppercase;
+	
 	font-weight: 600;
 	font-family: 'Cormorant', serif;
 	font-size: 2em;
@@ -171,6 +176,39 @@ hr{
 }
 /* END ABOUT ME */
 
+
+/* SKILLS SECTION */
+
+#skills_section{
+	padding-top: 6%;
+	margin-bottom: 6%;
+}
+
+#skills_section h1{
+	text-align: center;
+	text-transform: uppercase;
+	
+	font-family: 'Cormorant', serif;
+	font-weight: 600;
+	font-size: 3.0em;
+	
+	letter-spacing: 0.1em;
+	text-shadow: 1px 1px 1px black;
+}
+
+#skills_image{
+	margin: 1% 0 10% -7.5%;
+	
+	cursor: pointer;
+	
+	border-radius: 20px;
+	
+	box-shadow: 5px 5px 2px 1px black,
+			    5px 5px 2px 1px gray;
+}
+
+/* END SKILLS */
+
 /* END SECTION SELECTORS */
 .fa-file-text-o:before {
     content: "\f0f6";
@@ -195,34 +233,24 @@ a:visited{
 	height: 10px;
 }
 
-#end_section_contact_text{
+#contact_info_text{
 	font-size: 0.7em;
 }
 
-#end_section{
+#contact_info{
 	margin-bottom: 2%;
 	padding: 1%;
 	
 	background-image: url(images/bt4.png);
-	background-position: center;
+	background-position: left;
 	
 	text-align: center;
 	font-size: 1.5em;
 	color: white;
 	
 	border-radius: 10px;
-	box-shadow: 5px 5px 5px 1px black,
-			    5px 5px 5px 1px gray;
-}
-
-#return_to_top_button{
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	margin-top: 15px;
-	
-	background-color: #211A29;
+	box-shadow: 5px 5px 2px 1px black,
+			    5px 5px 2px 1px gray;
 }
 
 footer{
