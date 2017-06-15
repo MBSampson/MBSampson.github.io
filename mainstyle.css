@@ -164,6 +164,11 @@ hr{
 	font-size: 1.2em;
 }
 
+#google_link{
+	color: #211A29;
+	text-decoration: underline;
+}
+
 #portfolio_text{
 	text-align: center;
 }
