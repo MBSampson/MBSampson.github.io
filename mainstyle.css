@@ -135,6 +135,15 @@ hr{
 .alt_card h3{
 	text-shadow: 1px 1px 1px white;
 }
+
+.col-lg-6{
+	padding: 5% 5%;
+}
+
+.row{
+	padding-bottom: 5%;
+}
+
 /* END GRID */
 
 
@@ -182,36 +191,113 @@ hr{
 /* SKILLS SECTION */
 
 #skills_section{
-	padding-top: 6%;
-	margin-bottom: 6%;
+	height: 950px;
+	width: 100%;
+	margin: 0 auto -1% 0;
+	background-image: url(images/bt4_edit.png);
+}
+.h1, h1 {
+   	margin-top: 5%;
+	
+	font-weight: 700;
+	font-family: 'Cormorant', serif;
+	font-size: 3.5em;
+	
+    color: white;
+	
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 4px 4px 4px black,
+				 2px 2px 2px gray,
+				 1px 1px 1px white;
 }
 
-#skills_section h1{
-	text-align: center;
+#skills_btn{
+	letter-spacing: 2px;
+	
 	text-transform: uppercase;
 	
-	font-family: 'Cormorant', serif;
-	font-weight: 600;
-	font-size: 3.0em;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
 	
-	letter-spacing: 0.1em;
-	text-shadow: 1px 1px 1px black;
-}
-
-#skills_image{
-	margin: 1% 0 10% -7.5%;
+	outline: none;
 	
-	cursor: pointer;
+	background-color: #211A29;
+	color: white;
 	
+	display: block;
+	border: 2px solid white;
 	border-radius: 20px;
 	
-	box-shadow: 5px 5px 2px 1px black,
-			    5px 5px 2px 1px gray;
+	cursor: pointer;
 }
 
-/* END SKILLS */
+#skills_field{
+	width: 96%;
+	height: 73%;
+	margin: 1% 2%;
+	font-family: 'Cormorant', serif;
+	color: white;
+}
 
-/* END SECTION SELECTORS */
+#skills_field_footer{
+	width: 100%;
+	text-align: center;
+	padding: 0 40%;
+}
+
+.skill_icon{
+	background: url(images/spacecraft_right.png);
+	background-position: center;
+	background-size: cover;
+	width: 122px;
+	height: 66px;
+	margin: 1% 0;
+	
+	transition: transform 10s ease-in-out;
+}
+
+/* Spacecraft Starting Locations */
+
+.skill_icon:nth-of-type(1){
+	margin-left: 75%;
+}
+.skill_icon:nth-of-type(2){
+	margin-left: 10%;
+}
+.skill_icon:nth-of-type(3){
+	margin-left: 80%;
+}
+.skill_icon:nth-of-type(4){
+	margin-left: 15%;
+}
+.skill_icon:nth-of-type(5){
+	margin-left: 60%;
+}
+.skill_icon:nth-of-type(6){
+	margin-left: 25%;
+}
+/* End Spacecraft Spacing */
+
+
+.move_right{
+	transform: translateX(700px);
+}
+
+.move_left{
+	transform: translateX(-700px);
+}
+
+
+#skills_field p{
+	letter-spacing: 2px;
+	font-weight: 800;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 15px 0 0 15px;
+}
+/* END SKILLS */
 
 footer{
 	max-height: 5%;
