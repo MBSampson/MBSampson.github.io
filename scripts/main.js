@@ -40,6 +40,8 @@ function styleIconText(){
 	// Dreamweaver
 	skillText[5].style.fontSize = "0.8em";
 	skillText[5].style.padding = "19px 0 0 20px";
+	// NPM
+	skillText[6].style.padding = "19px 15px 0 0";
 }
 
 function showSkillsIcons(){
@@ -54,6 +56,6 @@ function init(){
 		// Populate field
 		showSkillsIcons();
 		// Move icons
-		setTimeout(moveSkillIcons, 1000);
+		setTimeout(moveSkillIcons, 1);
 	});
 }
