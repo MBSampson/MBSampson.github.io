@@ -101,6 +101,10 @@ hr{
 	letter-spacing: 0.3px;
 }
 
+.grid_card p{
+	text-indent: 10px;
+}
+
 .alt_card{
 	margin-top: 25px;
 	
@@ -140,8 +144,9 @@ hr{
 	padding: 5% 5%;
 }
 
-.row{
-	padding-bottom: 5%;
+.card_text_short{
+	text-align: center;
+	text-indent: 0px;
 }
 
 /* END GRID */
@@ -156,9 +161,8 @@ hr{
 }
 
 #portrait_image{
-	padding-right: 5px;
-	height: 300px;
-	
+	height: 350px;
+	margin-left: -10%;
 }
 /* END PORTRAIT */
 
@@ -173,10 +177,6 @@ hr{
 #google_link{
 	color: #211A29;
 	text-decoration: underline;
-}
-
-#portfolio_text{
-	text-align: center;
 }
 
 .section_spacing{
