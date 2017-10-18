@@ -163,6 +163,7 @@ hr{
 #portrait_image{
 	height: 350px;
 	margin-left: -10%;
+	border-radius: 25px;
 }
 /* END PORTRAIT */
 
@@ -195,6 +196,7 @@ hr{
 	width: 100%;
 	margin: 0 auto -1% 0;
 	background-image: url(images/bt4_edit.png);
+	overflow: hidden;
 }
 .h1, h1 {
    	margin-top: 5%;
@@ -255,9 +257,9 @@ hr{
 	height: 66px;
 	margin: 1% 0;
 	
-	transition: transform 10s ease-in-out;
-	-webkit-transition: transform 10s ease-in-out;
-	-moz-transition: transform 10s ease-in-out;
+	transition: transform 30s ease-in-out;
+	-webkit-transition: transform 30s ease-in-out;
+	-moz-transition: transform 30s ease-in-out;
 }
 
 /* Spacecraft Starting Locations */
@@ -266,32 +268,35 @@ hr{
 	margin-left: 75%;
 }
 .skill_icon:nth-of-type(2){
-	margin-left: 10%;
-}
-.skill_icon:nth-of-type(3){
-	margin-left: 80%;
-}
-.skill_icon:nth-of-type(4){
 	margin-left: 15%;
 }
+.skill_icon:nth-of-type(3){
+	margin-left: 70%;
+}
+.skill_icon:nth-of-type(4){
+	margin-left: 10%;
+}
 .skill_icon:nth-of-type(5){
-	margin-left: 60%;
+	margin-left: 50%;
 }
 .skill_icon:nth-of-type(6){
-	margin-left: 25%;
+	margin-left: 20%;
 }
 .skill_icon:nth-of-type(7){
-	margin-left: 55%;
+	margin-left: 70%;
+}
+.skill_icon:nth-of-type(8){
+	margin-left: 30%;
 }
 /* End Spacecraft Spacing */
 
 
 .move_right{
-	transform: translateX(700px);
+	transform: translateX(350%);
 }
 
 .move_left{
-	transform: translateX(-700px);
+	transform: translateX(-350%);
 }
 
 
