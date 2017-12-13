@@ -52,10 +52,8 @@ function showSkillsIcons(){
 
 function init(){
 	initializeSkillIcons();
-	skillsBtn.addEventListener("click", function(){
-		// Populate field
-		showSkillsIcons();
-		// Move icons
-		setTimeout(moveSkillIcons, 1);
-	});
+	
+	showSkillsIcons();
+	
+	setTimeout(moveSkillIcons, 10);
 }

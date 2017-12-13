@@ -99,10 +99,8 @@ hr{
 	
 	font-size: 1.1em;
 	letter-spacing: 0.3px;
-}
-
-.grid_card p{
-	text-indent: 10px;
+	
+	text-align: center;
 }
 
 .alt_card{
@@ -116,6 +114,10 @@ hr{
 	border: 3px solid white;
 	box-shadow: 5px 5px 2px 1px black,
 			    5px 5px 2px 1px gray;
+}
+
+.alt-card h5{
+	color: white;
 }
 
 .grid_card h3{
@@ -147,6 +149,11 @@ hr{
 .card_text_short{
 	text-align: center;
 	text-indent: 0px;
+}
+
+.grid_card h5{
+	text-align: center;
+	font-size: 0.8em;
 }
 
 /* END GRID */
@@ -257,9 +264,9 @@ hr{
 	height: 66px;
 	margin: 1% 0;
 	
-	transition: transform 30s ease-in-out;
-	-webkit-transition: transform 30s ease-in-out;
-	-moz-transition: transform 30s ease-in-out;
+	transition: transform 90s ease-in-out;
+	-webkit-transition: transform 90s ease-in-out;
+	-moz-transition: transform 90s ease-in-out;
 }
 
 /* Spacecraft Starting Locations */
